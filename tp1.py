@@ -2,7 +2,7 @@
 
 a = []
 
-with open("test03.txt") as f:
+with open("test04.txt") as f:
     x, y, r = f.readline().split()
     x = int(x)
     y = int(y)
