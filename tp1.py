@@ -77,7 +77,7 @@ while x1 <= max_x:
     x1+=0.01
 
 with open("output.txt", "w") as f:
-    f.write('%s' % str(intersection/float(union)))
+    f.write('%f' % (intersection/float(union)))
 
 
 
